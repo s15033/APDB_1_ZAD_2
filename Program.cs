@@ -17,13 +17,13 @@ namespace Initial_project
         
         private static double average(int[] nubmers)
         {
-            int sum = 0;
+            int summary = 0;
             foreach (var number in nubmers)
             {
-                sum += number;
+                summary += number;
             }
             
-           return((float)sum / nubmers.Length);
+           return((float)summary / nubmers.Length);
         }
         
         private static int max(int[] nubmers)
