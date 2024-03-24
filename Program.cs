@@ -6,7 +6,7 @@ namespace Initial_project
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Zadanie na APBD");
+            Console.WriteLine("Zadanie na APBD: Hello World!");
         }
     }
 }
