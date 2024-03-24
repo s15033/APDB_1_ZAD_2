@@ -10,7 +10,7 @@ namespace Initial_project
             Console.WriteLine(average(new int[] {1, 2, 3, 4}));
         }
         
-        public static double average(int[] nubmers)
+        private static double average(int[] nubmers)
         {
             int sum = 0;
             foreach (var number in nubmers)
